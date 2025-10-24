@@ -1,0 +1,57 @@
+@import url(design2.css);
+/* p{
+    background-color: blueviolet;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.paragraph{
+    background-color: rgb(12, 82, 82);
+}
+h2{
+    background-color: rgb(25, 91, 184);
+}
+b,strong,p{
+    background-color: brown;
+} */
+.parent{
+    background-color:skyblue;
+}
+.parent{
+    background-color: rgb(31, 204, 112);
+
+}
+.parent{
+    background-color: rgb(107, 175, 107);
+}
+.parent ~ p{
+    background-color: blueviolet;
+}
+.learn-pseudo{
+    width: 100px;
+    height: 100px;
+    border: 2px double black
+}
+.learn-pseudo:hover{
+    background-color: aquamarine;
+}
+.learn-pseudo.active{
+    background-color: green;
+}
+input;focous{
+    background-color: brown;
+}
+ul li:firstchild{
+    background-color: aqua;
+}
+ul li:lastchild{
+    background-color: blueviolet;
+}
+ul li:nth-child(2){
+    background-color: brown;
+}
+ul li:nth-child(odd){
+    background-color: blue;
+}
